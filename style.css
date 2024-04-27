@@ -1,0 +1,166 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0f172a;
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+}
+/* ########## Header ################### */
+header {
+  padding: 34px 100px;
+  margin-bottom: 94px;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Navigation ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+.Navigation li {
+  padding: 10px;
+}
+.Navigation li a {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28.13px;
+  color: #f8fafc;
+  text-decoration: none;
+}
+.recent-projects {
+  margin-bottom: 94px;
+}
+.homecontainer {
+  max-width: 1150px;
+  margin: 0 auto;
+  margin-left: 146px;
+  align-items: center;
+}
+h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56.25px;
+  color: #f8fafc;
+  margin-bottom: 83px;
+}
+h2 span {
+  color: #16b8f3;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 41px;
+}
+.card {
+  background-color: #1E293B;
+  border-radius: 20px;
+  padding: 34px 8px;
+  display: flex;
+  align-items: center;
+  gap: 44px;
+}
+.card > div {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.card h3 {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35.16px;
+  color: #f8fafc;
+}
+.card p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23.44px;
+  color: #cbd5e1;
+}
+.card p:first-child {
+  margin-bottom: 14px;
+}
+/* ################### Latest Posts !!!!! ############# */
+
+.posts {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.post {
+  background-color: #1E293B;
+  border-radius: 20px;
+  padding-bottom: 34px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 23px;
+    max-width: 369px;
+  max-height: 518px;
+}
+.post > div {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  justify-content: space-between;
+}
+.post h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28.13px;
+  color: #f8fafc;
+  /* margin-top: -10px; */
+}
+.post p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23.44px;
+  max-width: 340px;
+  color: #cbd5e1;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* align-self: center; */
+  text-align: center;
+}
+.homesecondcontainer {
+
+  /* margin: 0 auto; */
+  margin-left: 146px;
+  margin-bottom: 139px;
+}
+.line {
+  height: 1px;
+  background-color: #CBD5E1;
+  margin-bottom: 35px;
+  /* margin-top: 139px; */
+}
+.copyright{
+  font-weight:500;
+  font-size: 20px;
+  line-height: 23.44px;
+  color: #CBD5E1;
+}
+footer{
+  padding: 35px 172px 56px 108px;
+}
+p span {
+  color: #9CA3AF;
+}
+.posttext{
+  margin-left: 13.53px;
+  margin-right: 14.14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
